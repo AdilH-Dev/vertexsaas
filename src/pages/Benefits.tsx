@@ -5,6 +5,8 @@ import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Shield, Award, Heart, Activity, Gift, Users } from 'lucide-react';
+import promotionBanner from "../assets/images/Promotion.png";
+
 
 const Benefits = () => {
   return (
@@ -35,7 +37,7 @@ const Benefits = () => {
                 <div className="relative">
                   <div className="absolute -top-6 -left-6 w-24 h-24 bg-green-200 rounded-full opacity-50"></div>
                   <img 
-                    src="https://www.vertex-hcm.com/wp-content/uploads/2023/03/Benefits-Administration.png" 
+                    src={promotionBanner} 
                     alt="Benefits Management" 
                     className="rounded-lg shadow-xl relative z-10"
                     // onError={(e) => {

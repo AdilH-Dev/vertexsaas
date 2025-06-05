@@ -4,6 +4,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import recruitmentBanner from "../assets/images/recruitment-banner.png";
+
 
 const Recruitment = () => {
   return (
@@ -33,7 +35,7 @@ const Recruitment = () => {
             <div className="md:w-1/2">
               <div className="bg-white rounded-lg shadow-xl overflow-hidden">
                 <img 
-                  src="https://www.vertex-hcm.com/wp-content/uploads/2023/03/Recruitment-Management-1.png" 
+                  src={recruitmentBanner} 
                   alt="Recruitment Process" 
                   className="w-full h-auto"
                   // onError={(e) => {

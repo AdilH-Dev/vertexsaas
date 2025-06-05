@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { BarChart3, LineChart, PieChart, Target } from 'lucide-react';
+import performanceBanner from "../assets/images/Performance.png";
 
 const Performance = () => {
   return (
@@ -33,7 +34,7 @@ const Performance = () => {
             <div className="md:w-1/2">
               <div className="bg-white rounded-lg shadow-xl overflow-hidden">
                 <img 
-                  src="https://www.vertex-hcm.com/wp-content/uploads/2023/03/Performance-Management-1.png" 
+                  src={performanceBanner} 
                   alt="Performance Management" 
                   className="w-full h-auto"
                   // onError={(e) => {

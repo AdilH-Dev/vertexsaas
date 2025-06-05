@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Slider } from "@/components/ui/slider";
 import { cn } from "@/lib/utils";
 import { Smartphone, Monitor, Tablet } from "lucide-react";
-import desktop from "../assets/images/desktop.jpg";
+import desktop from "../assets/images/Desktop.svg";
 import mobile from "../assets/images/mobile.png";
+import tab from "../assets/images/tab.png";
 
 const AppScreensShowcase = () => {
   const [activeScreen, setActiveScreen] = useState(0);
@@ -49,8 +50,7 @@ const AppScreensShowcase = () => {
       title: "Tablet Access",
       description:
         "Perfect for managers who need HR data during meetings or while moving around the office.",
-      image:
-        "https://www.vertex-hcm.com/wp-content/uploads/2023/03/onboarding.png",
+      image: tab,
       color: "bg-vertex-blue-light/10",
       icon: <Tablet className="w-5 h-5 text-vertex-blue-light" />,
     },

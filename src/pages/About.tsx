@@ -1,52 +1,68 @@
-
-import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import { Button } from '@/components/ui/button';
+import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
-    <div className="min-h-screen">
-      <Header />
-      
-      {/* Hero Section */}
-      <div className="pt-28 pb-16 bg-gradient-to-b from-gray-50 to-white">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-            About <span className="text-vertex-blue">Vertex HCM</span>
-          </h1>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
-            We're transforming how organizations manage their human capital with innovative, 
-            user-friendly solutions designed for the modern workplace.
-          </p>
-        </div>
-      </div>
+    <>
+      <Helmet>
+        <title>Vertex – #1 HR Software & Attendance System - About Us</title>
+        <meta
+          name="description"
+          content="Discover why Vertex is Pakistan’s #1 HR software and attendance system—trusted by businesses for innovative, efficient, and reliable HR technology solutions."
+        />
+        <link rel="canonical" href="https://vertex-hcm.com/about" />
+      </Helmet>
+      <div className="min-h-screen">
+        <Header />
 
-      {/* Mission & Vision */}
-      <div className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <h2 className="text-2xl font-bold mb-4 text-vertex-blue">Our Mission</h2>
-              <p className="text-gray-700">
-                To empower organizations with innovative human capital management solutions that 
-                streamline processes, enhance decision-making, and create exceptional employee experiences.
-              </p>
-            </div>
-            
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <h2 className="text-2xl font-bold mb-4 text-vertex-blue">Our Vision</h2>
-              <p className="text-gray-700">
-                To be the global leader in HCM solutions, recognized for our innovation, reliability, 
-                and commitment to helping organizations unlock the full potential of their workforce.
-              </p>
+        {/* Hero Section */}
+        <div className="pt-28 pb-16 bg-gradient-to-b from-gray-50 to-white">
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+              About <span className="text-vertex-blue">Vertex HCM</span>
+            </h1>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
+              We're transforming how organizations manage their human capital
+              with innovative, user-friendly solutions designed for the modern
+              workplace.
+            </p>
+          </div>
+        </div>
+
+        {/* Mission & Vision */}
+        <div className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="grid md:grid-cols-2 gap-12">
+              <div className="bg-gray-50 p-8 rounded-lg">
+                <h2 className="text-2xl font-bold mb-4 text-vertex-blue">
+                  Our Mission
+                </h2>
+                <p className="text-gray-700">
+                  To empower organizations with innovative human capital
+                  management solutions that streamline processes, enhance
+                  decision-making, and create exceptional employee experiences.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 p-8 rounded-lg">
+                <h2 className="text-2xl font-bold mb-4 text-vertex-blue">
+                  Our Vision
+                </h2>
+                <p className="text-gray-700">
+                  To be the global leader in HCM solutions, recognized for our
+                  innovation, reliability, and commitment to helping
+                  organizations unlock the full potential of their workforce.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Team Section */}
-      <div className="py-16 bg-gray-50">
+        {/* Team Section */}
+        {/* <div className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Our Leadership Team</h2>
           
@@ -97,10 +113,11 @@ const About = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 };
 

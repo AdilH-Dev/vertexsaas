@@ -196,7 +196,7 @@ const Footer = () => {
 
           {/* Resources */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Resources</h3>
+            <h3 className="text-lg font-semibold mb-4">Locations</h3>
             <ul className="space-y-3">
               <li className="text-gray-400 hover:text-white transition-colors flex items-center">
                 {/* <a
@@ -206,7 +206,7 @@ const Footer = () => {
                 <span className="w-[24px] h-[24px] inline-block mr-4 mb-1 flex-shrink-0">
                   <img src={UAE} alt="UAE flag" className="w-full h-full" />
                 </span>
-                UAE Suite #2805, Prism Tower Business Bay, Dubai, UAE
+                Suite #2805, Prism Tower Business Bay, Dubai, UAE
                 {/* </a> */}
               </li>
               <li className="text-gray-400 hover:text-white transition-colors flex items-center">
@@ -217,7 +217,7 @@ const Footer = () => {
                 <span className="w-[24px] h-[24px] inline-block mr-4 mb-1 flex-shrink-0">
                   <img src={SA} alt="UAE flag" className="w-full h-full" />
                 </span>{" "}
-                KSA (Saudi Arabia) Building #8051, Prince Thamir Street Al
+                Building #8051, Prince Thamir Street Al
                 Khubar Ash Shamaliyah Kingdom of Saudi Arabia
                 {/* </a> */}
               </li>
@@ -229,7 +229,7 @@ const Footer = () => {
                 <span className="w-[24px] h-[24px] inline-block mr-4 mb-1 flex-shrink-0">
                   <img src={USA} alt="UAE flag" className="w-full h-full" />
                 </span>
-                USA STE 21805, 30 N Gould St, Sheridan 82801, Wyoming, USA
+                STE 21805, 30 N Gould St, Sheridan 82801, Wyoming, USA
                 {/* </a> */}
               </li>
               <li className="text-gray-400 hover:text-white transition-colors flex items-center">
@@ -240,7 +240,7 @@ const Footer = () => {
                 <span className="w-[24px] h-[24px] inline-block mr-4 mb-1 flex-shrink-0">
                   <img src={PK} alt="UAE flag" className="w-full h-full" />
                 </span>
-                Pakistan Innovista Indus IT Park – 1st Floor, DHA Phase II Ext.,
+                Innovista Indus IT Park – 1st Floor, DHA Phase II Ext.,
                 Karachi
                 {/* </a> */}
               </li>

@@ -30,26 +30,26 @@ const AppScreensShowcase = () => {
 
   const screens = [
     {
-      title: "Desktop Experience",
+      title: "Desktop Dashboard",
       description:
-        "Comprehensive dashboard with all HR tools at your fingertips.",
+        "All tools visible in one glance",
       image: desktop,
       color: "bg-vertex-blue/10",
       icon: <Monitor className="w-5 h-5 text-vertex-blue" />,
     },
     {
-      title: "Mobile Experience",
+      title: "Mobile-Friendly App ",
       description:
-        "Access your HR tools on the go with our responsive mobile application.",
+        "Manage HR tasks while on the move",
       image: mobile,
       // color: "bg-vertex-orange/10",
       color: "bg-transparent",
       icon: <Smartphone className="w-5 h-5 text-vertex-orange" />,
     },
     {
-      title: "Tablet Access",
+      title: "Tablet Support",
       description:
-        "Perfect for managers who need HR data during meetings or while moving around the office.",
+        "Perfect for mid-meeting decisions or quick checks",
       image: tab,
       color: "bg-vertex-blue-light/10",
       icon: <Tablet className="w-5 h-5 text-vertex-blue-light" />,
@@ -65,12 +65,10 @@ const AppScreensShowcase = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Experience Vertex HCM On Any Device
+            Designed for Flexibility, Built for All Devices
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Our platform is designed to provide a seamless experience across
-            desktop, tablet, and mobile devices, allowing you to manage your HR
-            operations from anywhere.
+            Our platform works seamlessly on all screens, helping HR teams stay connected from boardroom to breakroom with real-time notifications, simpler interface and smooth incorporation with your current tools:
           </p>
         </div>
 

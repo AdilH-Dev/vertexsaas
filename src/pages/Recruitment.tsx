@@ -49,7 +49,7 @@ const Recruitment = () => {
                 <div className="bg-white rounded-lg shadow-xl overflow-hidden">
                   <img
                     src={recruitmentBanner}
-                    alt="Recruitment Process"
+                    alt="Streamlined Recruitment Process"
                     className="w-full h-auto"
                     // onError={(e) => {
                     //   const target = e.target as HTMLImageElement;

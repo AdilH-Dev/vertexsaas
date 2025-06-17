@@ -11,7 +11,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import showCase1 from "../assets/images/1.png"; 
+import showCase1 from "../assets/images/Frame (4).svg"; 
 import showCase2 from "../assets/images/2.png"; 
 import showCase3 from "../assets/images/3.png"; 
 import showCase4 from "../assets/images/4.png"; 
@@ -20,11 +20,13 @@ import showCase4 from "../assets/images/4.png";
 
 const InfoSlider = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+
+  
   
   const slides = [
     {
       title: "Streamlined HR Operations",
-      description: "Automate routine tasks, reduce paperwork, and improve efficiency with our comprehensive HR management solution.",
+      description: "Automate your core HR functions and reduce human error. Our platform simplifies workflows and removes manual bottlenecks, freeing up time for strategic initiatives.",
       icon: (
         <svg className="h-12 w-12 text-vertex-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
@@ -33,8 +35,8 @@ const InfoSlider = () => {
       image: showCase1
     },
     {
-      title: "Enhanced Employee Experience",
-      description: "Provide a self-service portal where employees can access payslips, request time off, and update personal information.",
+      title: "Employee-Centric Interface",
+      description: "Let your team take control. With our self-service portal, employees can check pay slips, request leave, or update profiles anytime, anywhere.",
       icon: (
         <svg className="h-12 w-12 text-vertex-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -43,8 +45,8 @@ const InfoSlider = () => {
       image: showCase2
     },
     {
-      title: "Data-Driven Decisions",
-      description: "Gain valuable insights with customizable reports and analytics for informed decision-making and strategic planning.",
+      title: "Data for Smarter Decisions",
+      description: "Use real-time dashboards and reports to make informed decisions. From hiring trends to attrition insights, get the visibility your leadership needs.",
       icon: (
         <svg className="h-12 w-12 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -53,8 +55,8 @@ const InfoSlider = () => {
       image: showCase3
     },
     {
-      title: "Compliance Management",
-      description: "Stay compliant with ever-changing regulations with automatic updates and built-in compliance tools.",
+      title: "Compliance, Always",
+      description: "With built-in tools and automatic updates, our system supports HR professionals in staying compliant with local labor laws and regulations.",
       icon: (
         <svg className="h-12 w-12 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -68,9 +70,9 @@ const InfoSlider = () => {
     <section className="py-12 md:py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-3 md:mb-4">Why Choose Vertex HCM</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-3 md:mb-4">Why Vertex HCM Stands Out, HR software in Karachi</h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
-            Our comprehensive human capital management solution provides everything you need to optimize your workforce operations.
+            Our commitment is not just to software, but to creating meaningful HR experiences. With vertex HCM software, you’re choosing stability, scalability, and intuitive design; all in one.
           </p>
         </div>
 
@@ -91,7 +93,7 @@ const InfoSlider = () => {
               <CarouselItem key={index} className="sm:basis-full md:basis-1/2 lg:basis-1/3">
                 <Card className={cn(
                   "border-none transition-all duration-300 transform",
-                  activeIndex === index ? "scale-105 shadow-lg" : "opacity-75"
+                  activeIndex === index ? "scale-105 shadow-lg opacity-75" : "opacity-75"
                 )}>
                   <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
                     <div className="mb-4 w-full h-32 md:h-40 overflow-hidden rounded-lg">

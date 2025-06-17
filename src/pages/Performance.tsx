@@ -49,7 +49,7 @@ const Performance = () => {
                 <div className="bg-white rounded-lg shadow-xl overflow-hidden">
                   <img
                     src={performanceBanner}
-                    alt="Performance Management"
+                    alt="Effective Performance Management"
                     className="w-full h-auto"
                     // onError={(e) => {
                     //   const target = e.target as HTMLImageElement;

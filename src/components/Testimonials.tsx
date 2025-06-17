@@ -4,29 +4,29 @@ import { cn } from "@/lib/utils";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    position: "HR Director, TechCorp",
-    content: "Vertex HCM has completely transformed our HR operations. The platform is intuitive, powerful, and has significantly reduced our administrative workload. Our team can now focus on strategic initiatives rather than paperwork.",
+    name: "Sarah Ahmed",
+    position: "HR Director, TechNova",
+    content: "We streamlined our payroll and onboarding processes within weeks of switching to vertex HCM software in Pakistan. Highly intuitive and reliable.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
   },
   {
-    name: "Michael Chen",
-    position: "CEO, GrowthWave Solutions",
-    content: "As our company scaled, we needed an HCM solution that could grow with us. Vertex not only met our expectations but exceeded them. The customizable reporting has been invaluable for our executive decision-making.",
+    name: "David June",
+    position: "CEO, CoreSol",
+    content: "As an SME based in Chicago, we were looking for dependable HR software. Vertex delivered beyond our expectations by reducing our processing time by 60%",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
   },
-  {
-    name: "Priya Patel",
-    position: "Payroll Manager, GlobalServe",
-    content: "The payroll processing capabilities in Vertex HCM have reduced our processing time by 75%. Compliance updates are automatic, and the system has helped us eliminate costly errors. It's been a game-changer for our department.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
-  },
-  {
-    name: "David Rodriguez",
-    position: "Talent Acquisition Lead, InnovateTech",
-    content: "The recruitment module in Vertex HCM has streamlined our entire hiring process. From posting jobs to onboarding new employees, everything is now managed in one place. Our time-to-hire has been reduced by 40%.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
-  }
+  // {
+  //   name: "Priya Patel",
+  //   position: "Payroll Manager, GlobalServe",
+  //   content: "The payroll processing capabilities in Vertex HCM have reduced our processing time by 75%. Compliance updates are automatic, and the system has helped us eliminate costly errors. It's been a game-changer for our department.",
+  //   image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+  // },
+  // {
+  //   name: "David Rodriguez",
+  //   position: "Talent Acquisition Lead, InnovateTech",
+  //   content: "The recruitment module in Vertex HCM has streamlined our entire hiring process. From posting jobs to onboarding new employees, everything is now managed in one place. Our time-to-hire has been reduced by 40%.",
+  //   image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+  // }
 ];
 
 const Testimonials = () => {
@@ -87,9 +87,9 @@ const Testimonials = () => {
     <section id="testimonials" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Trusted by Thousands</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover why organizations trust Vertex HCM for their human capital management needs.
+            Vertex HCM has transformed HR operations for over 3,500 organizations in 45+ countries. Our client retention rate of 97% speaks volumes about satisfaction and service excellence.
           </p>
         </div>
         

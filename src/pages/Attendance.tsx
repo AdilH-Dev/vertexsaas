@@ -50,7 +50,7 @@ const Attendance = () => {
                 <div className="bg-white rounded-lg shadow-xl overflow-hidden">
                   <img
                     src={attendanceBanner}
-                    alt="Attendance Management"
+                    alt="Efficient Attendance Tracking"
                     className="w-full h-auto"
                     // onError={(e) => {
                     //   const target = e.target as HTMLImageElement;

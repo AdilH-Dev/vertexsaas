@@ -65,7 +65,7 @@ const Navigation = () => {
             <div className="grid w-[300px] gap-2 p-4 md:w-[400px] md:grid-cols-2 lg:w-[600px]">
               <Link to="/payroll">
                 <NavigationMenuLink className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-vertex-blue-light to-vertex-blue p-4 md:p-6 no-underline outline-none focus:shadow-md">
-                  <div className="mb-2 mt-2 md:mt-4 text-base md:text-lg font-medium text-white">
+                  <div className="mb-2 text-base md:text-lg font-medium text-white">
                     Payroll
                   </div>
                   <p className="text-xs md:text-sm leading-tight text-white/90">
@@ -75,7 +75,7 @@ const Navigation = () => {
               </Link>
               <Link to="/attendance">
                 <NavigationMenuLink className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-vertex-orange-light to-vertex-orange p-4 md:p-6 no-underline outline-none focus:shadow-md">
-                  <div className="mb-2 mt-2 md:mt-4 text-base md:text-lg font-medium text-white">
+                  <div className="mb-2 text-base md:text-lg font-medium text-white">
                     Attendance
                   </div>
                   <p className="text-xs md:text-sm leading-tight text-white/90">
@@ -85,7 +85,7 @@ const Navigation = () => {
               </Link>
               <Link to="/recruitment">
                 <NavigationMenuLink className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-vertex-blue to-violet-600 p-4 md:p-6 no-underline outline-none focus:shadow-md">
-                  <div className="mb-2 mt-2 md:mt-4 text-base md:text-lg font-medium text-white">
+                  <div className="mb-2 text-base md:text-lg font-medium text-white">
                     Recruitment
                   </div>
                   <p className="text-xs md:text-sm leading-tight text-white/90">
@@ -95,7 +95,7 @@ const Navigation = () => {
               </Link>
               <Link to="/performance">
                 <NavigationMenuLink className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-purple-500 to-purple-700 p-4 md:p-6 no-underline outline-none focus:shadow-md">
-                  <div className="mb-2 mt-2 md:mt-4 text-base md:text-lg font-medium text-white">
+                  <div className="mb-2 text-base md:text-lg font-medium text-white">
                     Performance
                   </div>
                   <p className="text-xs md:text-sm leading-tight text-white/90">
@@ -105,7 +105,7 @@ const Navigation = () => {
               </Link>
               <Link to="/benefits">
                 <NavigationMenuLink className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-green-500 to-green-700 p-4 md:p-6 no-underline outline-none focus:shadow-md">
-                  <div className="mb-2 mt-2 md:mt-4 text-base md:text-lg font-medium text-white">
+                  <div className="mb-2 text-base md:text-lg font-medium text-white">
                     Benefits
                   </div>
                   <p className="text-xs md:text-sm leading-tight text-white/90">
@@ -115,7 +115,7 @@ const Navigation = () => {
               </Link>
               <Link to="/compliance">
                 <NavigationMenuLink className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-red-500 to-red-700 p-4 md:p-6 no-underline outline-none focus:shadow-md">
-                  <div className="mb-2 mt-2 md:mt-4 text-base md:text-lg font-medium text-white">
+                  <div className="mb-2 text-base md:text-lg font-medium text-white">
                     Compliance
                   </div>
                   <p className="text-xs md:text-sm leading-tight text-white/90">

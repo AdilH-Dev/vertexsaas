@@ -52,7 +52,7 @@ const Benefits = () => {
                     <div className="absolute -top-6 -left-6 w-24 h-24 bg-green-200 rounded-full opacity-50"></div>
                     <img
                       src={promotionBanner}
-                      alt="Benefits Management"
+                      alt="Comprehensive Benefits Administration"
                       className="rounded-lg shadow-xl relative z-10"
                       // onError={(e) => {
                       //   const target = e.target as HTMLImageElement;

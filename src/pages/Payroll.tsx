@@ -49,7 +49,7 @@ const Payroll = () => {
                 <div className="bg-white rounded-lg shadow-xl overflow-hidden">
                   <img
                     src={payrollBanner}
-                    alt="Payroll Dashboard"
+                    alt="Streamlined Payroll Management"
                     className="w-full h-auto"
                     // onError={(e) => {
                     //   const target = e.target as HTMLImageElement;

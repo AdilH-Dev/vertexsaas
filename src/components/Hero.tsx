@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import ButtonHover from './ui/button-hover';
-import heroBanner from '../assets/images/home-hero.png'; // Assuming you have a hero banner image
+import heroBanner from '../assets/images/Group 1171274999 (1).svg'; // Assuming you have a hero banner image
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -23,16 +23,16 @@ const Hero = () => {
           {/* Left content */}
           <div className="w-full md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
             <h1 
-              className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 transition-opacity duration-1000 ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+              className={`text-3xl sm:text-4xl md:text-5xl  font-bold mb-4 md:mb-6 transition-opacity duration-1000 ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}
             >
-              <span className="block">Transform Your</span>
-              <span className="text-vertex-blue block">HR Management</span>
-              <span className="block">with Vertex HCM</span>
+              <span className="block">How is <span className="text-vertex-blue">Human</span></span>
+              <span className="text-vertex-blue block">Resource Management</span>
+              <span className="block">software helpful!</span>
             </h1>
             <p 
               className={`text-base md:text-lg text-gray-700 mb-6 md:mb-8 mx-auto md:mx-0 max-w-lg transition-opacity delay-300 duration-1000 ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}
             >
-              Simplify your HR processes, enhance employee experience, and drive strategic decisions with our comprehensive Human Capital Management solution.
+              Modern businesses need more than just spreadsheets to manage their people. From recruitment to retirement, Vertex HCM helps organizations navigate the entire employee lifecycle with clarity, compliance, and ease. Our powerful Human resource management software is designed to streamline your workforce operations and elevate the employee experience, all within one integrated solution.
             </p>
             <div className={`flex flex-wrap justify-center md:justify-start gap-3 md:gap-4 transition-opacity delay-500 duration-1000 ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
               <ButtonHover variant="primary" size="lg">
@@ -54,7 +54,7 @@ const Hero = () => {
                 <img 
                   src={heroBanner} 
                   alt="Vertex HCM Dashboard" 
-                  className="w-full h-auto rounded-xl shadow-2xl"
+                  className="w-full h-auto rounded-xl"
                   // onError={(e) => {
                   //   const target = e.target as HTMLImageElement;
                   //   target.onerror = null;
@@ -63,9 +63,9 @@ const Hero = () => {
                 />
                 
                 {/* Small decorative elements - hide on very small screens */}
-                <div className="hidden sm:block absolute top-10 right-10 w-8 md:w-12 h-8 md:h-12 bg-vertex-orange/20 rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
-                <div className="hidden sm:block absolute bottom-10 left-5 w-6 md:w-8 h-6 md:h-8 bg-vertex-blue/30 rounded-full animate-float" style={{ animationDelay: '1.5s' }}></div>
-                <div className="hidden sm:block absolute top-1/4 left-10 w-4 md:w-6 h-4 md:h-6 bg-gray-200 rounded-md animate-float" style={{ animationDelay: '0.5s' }}></div>
+                {/* <div className="hidden sm:block absolute top-10 right-10 w-8 md:w-12 h-8 md:h-12 bg-vertex-orange/20 rounded-full animate-float" style={{ animationDelay: '1s' }}></div> */}
+                {/* <div className="hidden sm:block absolute bottom-10 left-5 w-6 md:w-8 h-6 md:h-8 bg-vertex-blue/30 rounded-full animate-float" style={{ animationDelay: '1.5s' }}></div> */}
+                {/* <div className="hidden sm:block absolute top-1/4 left-10 w-4 md:w-6 h-4 md:h-6 bg-gray-200 rounded-md animate-float" style={{ animationDelay: '0.5s' }}></div> */}
               </div>
             </div>
           </div>

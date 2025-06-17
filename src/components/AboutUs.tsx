@@ -11,7 +11,7 @@ const AboutUs = () => {
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold mb-6">About Vertex HCM</h2>
             <p className="text-gray-600 mb-6">
-              Vertex HCM is a leading provider of human capital management solutions designed to help businesses optimize their HR processes, improve employee experiences, and drive strategic outcomes. Founded in 2010, we have been serving organizations of all sizes across industries with our comprehensive, user-friendly platform.
+              Founded in 2010, Vertex HCM is a trusted name in HR software in Pakistan, delivering robust, scalable, and customizable human capital management systems. Our features are built to serve diverse industries with a focus on:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
               <div className="flex items-start">
@@ -21,7 +21,7 @@ const AboutUs = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">Security First</h3>
+                  <h3 className="text-lg font-semibold mb-1">Enterprise-Level Security</h3>
                   <p className="text-gray-600">Your data is protected with enterprise-grade security protocols.</p>
                 </div>
               </div>
@@ -32,19 +32,8 @@ const AboutUs = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">Lightning Fast</h3>
+                  <h3 className="text-lg font-semibold mb-1">High-Speed Performance</h3>
                   <p className="text-gray-600">Optimized performance for quick processing of HR tasks.</p>
-                </div>
-              </div>
-              <div className="flex items-start">
-                <div className="flex-shrink-0 h-12 w-12 flex items-center justify-center bg-vertex-blue/10 text-vertex-blue rounded-lg mr-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-1">Customizable</h3>
-                  <p className="text-gray-600">Tailor the platform to meet your organization's unique needs.</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -54,10 +43,22 @@ const AboutUs = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">24/7 Support</h3>
+                  <h3 className="text-lg font-semibold mb-1">24/7 Local Support</h3>
                   <p className="text-gray-600">Expert assistance available whenever you need it.</p>
                 </div>
               </div>
+              <div className="flex items-start">
+                <div className="flex-shrink-0 h-12 w-12 flex items-center justify-center bg-vertex-blue/10 text-vertex-blue rounded-lg mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-1">Tailored Configurations</h3>
+                  <p className="text-gray-600">Tailor the platform to meet your organization's unique needs.</p>
+                </div>
+              </div>
+              
             </div>
           </div>
           
@@ -68,24 +69,24 @@ const AboutUs = () => {
               <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -translate-x-5 -translate-y-20"></div>
               <div className="absolute bottom-0 left-0 w-32 h-32 bg-white/5 rounded-full translate-x-5 translate-y-10"></div>
               
-              <h3 className="text-2xl font-bold mb-6 relative z-10">Our Impact</h3>
+              <h3 className="text-2xl font-bold mb-6 relative z-10">Real Results, Real Impact</h3>
               
               <div className="grid grid-cols-2 gap-6 mb-8 relative z-10">
                 <div className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-4">
                   <p className="text-3xl font-bold mb-1">3,500+</p>
-                  <p className="text-sm">Happy Clients</p>
-                </div>
-                <div className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-4">
-                  <p className="text-3xl font-bold mb-1">97%</p>
-                  <p className="text-sm">Client Retention</p>
-                </div>
-                <div className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-4">
-                  <p className="text-3xl font-bold mb-1">45+</p>
-                  <p className="text-sm">Countries Served</p>
+                  <p className="text-sm">organizations managed</p>
                 </div>
                 <div className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-4">
                   <p className="text-3xl font-bold mb-1">2.5M+</p>
-                  <p className="text-sm">Employees Managed</p>
+                  <p className="text-sm">employees tracked</p>
+                </div>
+                <div className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                  <p className="text-3xl font-bold mb-1">Active in 45+</p>
+                  <p className="text-sm">countries</p>
+                </div>
+                <div className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                  <p className="text-3xl font-bold mb-1">97%</p>
+                  <p className="text-sm">client retention rate</p>
                 </div>
               </div>
               
@@ -97,8 +98,8 @@ const AboutUs = () => {
                   )}
                 >
                   <span className="flex items-center">
-                    <span className="h-2 w-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
-                    Trusted by industry leaders worldwide
+                    <span className="h-2 w-2 bg-green-400 rounded-full mr-2 animate-pulse flex-shrink-0"></span>
+                    Being one of the leading companies in HR software in Pakistan, our experience spans over 15 years of helping organizations bring simplicity and clarity to their HR function.
                   </span>
                 </div>
               </div>

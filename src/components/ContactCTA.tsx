@@ -34,12 +34,10 @@ const ContactCTA = () => {
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             <div className="w-full md:w-3/5">
               <h2 className="text-3xl font-bold mb-4">
-                Ready to Transform Your HR Management?
+                Ready to Elevate Your HR?
               </h2>
               <p className="text-gray-600 mb-6">
-                Speak with one of our HR solution experts and discover how
-                Vertex HCM can help your organization streamline operations,
-                enhance employee experience, and drive strategic outcomes.
+                Whether you are a growing business or an established enterprise, vertex HCM software in Pakistan is designed to help you manage your people better, every step of the way.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link to="/contact">

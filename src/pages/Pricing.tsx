@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const PricingCard = ({
   title,
@@ -57,6 +58,7 @@ const PricingCard = ({
           </li>
         ))}
       </ul>
+      <Link to="/contact">
       <Button
         className={`w-full mt-auto ${
           isPopular
@@ -66,6 +68,7 @@ const PricingCard = ({
       >
         {buttonText}
       </Button>
+      </Link>
     </div>
   );
 };
@@ -163,7 +166,7 @@ const Pricing = () => {
 
         <main className="flex-grow pt-24">
           {/* Hero Section */}
-          <section className="py-16 bg-gradient-to-br from-gray-50 to-gray-100">
+          <section className="py-4 bg-gradient-to-br from-gray-50 to-gray-100">
             <div className="container mx-auto px-4 text-center">
               <h1 className="text-3xl md:text-5xl font-bold mb-4">
                 Simple, Transparent Pricing
@@ -199,7 +202,7 @@ const Pricing = () => {
           </section>
 
           {/* FAQ Section */}
-          <section className="py-16 bg-white">
+          <section className="py-8 bg-white">
             <div className="container mx-auto px-4">
               <h2 className="text-3xl font-bold text-center mb-12">
                 Frequently Asked Questions
@@ -255,9 +258,11 @@ const Pricing = () => {
                   Our team is ready to help you find the perfect solution for
                   your organization.
                 </p>
+      <Link to="/contact">
                 <Button className="bg-vertex-blue hover:bg-vertex-blue-light text-white">
                   Contact Sales
                 </Button>
+      </Link>
               </div>
             </div>
           </section>

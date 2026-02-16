@@ -22,14 +22,14 @@ const Attendance = () => {
         <Header />
 
         {/* Hero Section */}
-        <div className="pt-28 pb-16 bg-gradient-to-b from-gray-50 to-white">
+        <div className="pt-24 bg-gradient-to-b from-gray-50 to-white">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row-reverse items-center">
               <div className="md:w-1/2 mb-8 md:mb-0 md:pl-8">
                 <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
                   Efficient{" "}
-                  <span className="text-vertex-orange">attendance</span>{" "}
-                  management software Tracking
+                  <span className="text-vertex-orange">Attendance</span>{" "}
+                  Management Software Tracking
                 </h1>
                 <p className="text-lg text-gray-700 mb-8">
                   In today’s fast-paced, hybrid, and ever-evolving work
@@ -43,15 +43,19 @@ const Attendance = () => {
                   overtime, all in real time and across all devices.
                 </p>
                 <div className="flex flex-wrap gap-4">
+                <Link to="/contact">
                   <Button className="bg-vertex-orange hover:bg-vertex-orange-light text-white">
                     Schedule Demo
                   </Button>
+                </Link>
+                <Link to="/contact">
                   <Button
                     variant="outline"
                     className="border-vertex-orange text-vertex-orange hover:bg-vertex-orange/10"
                   >
                     Learn More
                   </Button>
+                </Link>
                 </div>
               </div>
               <div className="md:w-1/2">
@@ -96,7 +100,7 @@ const Attendance = () => {
         </section>
 
         {/* Features List */}
-        <div className="py-16 bg-white">
+        <div className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-8">
               Key Features That Make a Difference
@@ -163,14 +167,16 @@ const Attendance = () => {
             </div>
 
             <div className="mt-16 text-center">
+                <Link to="/contact">  
               <Button className="bg-vertex-orange hover:bg-vertex-orange-light text-white px-8 py-6 text-lg">
                 Request a Free Trial
               </Button>
+                </Link>
             </div>
           </div>
         </div>
 
-        <section className="py-16 bg-gray-50">
+        <section className="py-8 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">

@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 const AboutUs = () => {
   return (
-    <section id="about" className="py-20">
+    <section id="about" className="py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Left side - Company info */}
@@ -74,19 +74,19 @@ const AboutUs = () => {
               <div className="grid grid-cols-2 gap-6 mb-8 relative z-10">
                 <div className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-4">
                   <p className="text-3xl font-bold mb-1">3,500+</p>
-                  <p className="text-sm">organizations managed</p>
+                  <p className="text-sm">Organizations Managed</p>
                 </div>
                 <div className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-4">
                   <p className="text-3xl font-bold mb-1">2.5M+</p>
-                  <p className="text-sm">employees tracked</p>
+                  <p className="text-sm">Employees Tracked</p>
                 </div>
                 <div className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-4">
                   <p className="text-3xl font-bold mb-1">Active in 45+</p>
-                  <p className="text-sm">countries</p>
+                  <p className="text-sm">Countries</p>
                 </div>
                 <div className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-4">
                   <p className="text-3xl font-bold mb-1">97%</p>
-                  <p className="text-sm">client retention rate</p>
+                  <p className="text-sm">Client Retention Rate</p>
                 </div>
               </div>
               

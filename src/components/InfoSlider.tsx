@@ -15,6 +15,7 @@ import showCase1 from "../assets/images/Frame (4).svg";
 import showCase2 from "../assets/images/2.png"; 
 import showCase3 from "../assets/images/3.png"; 
 import showCase4 from "../assets/images/4.png"; 
+import { Link } from 'react-router-dom';
 // Remove the incorrect import and use the one from the ui carousel component
 // which already handles the embla carousel integration correctly
 
@@ -67,7 +68,7 @@ const InfoSlider = () => {
   ];
 
   return (
-    <section className="py-12 md:py-16 bg-white">
+    <section className="py-8 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-3xl font-bold mb-3 md:mb-4">Why Vertex HCM Stands Out, HR software in Karachi</h2>
@@ -88,12 +89,12 @@ const InfoSlider = () => {
             }
           }}
         >
-          <CarouselContent>
+          <CarouselContent className="flex">
             {slides.map((slide, index) => (
-              <CarouselItem key={index} className="sm:basis-full md:basis-1/2 lg:basis-1/3">
+              <CarouselItem key={index} className="sm:basis-full md:basis-1/2 lg:basis-1/3 flex">
                 <Card className={cn(
-                  "border-none transition-all duration-300 transform",
-                  activeIndex === index ? "scale-105 shadow-lg opacity-75" : "opacity-75"
+                  "border-none transition-all duration-300 transform flex flex-col flex-1 m-2",
+                  activeIndex === index ? "shadow-lg opacity-75" : "shadow-lg opacity-75"
                 )}>
                   <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
                     <div className="mb-4 w-full h-32 md:h-40 overflow-hidden rounded-lg">
@@ -114,9 +115,11 @@ const InfoSlider = () => {
                     <h3 className="text-lg md:text-xl font-bold mt-2 md:mt-4 mb-1 md:mb-2">{slide.title}</h3>
                     <p className="text-gray-600 text-sm md:text-base">{slide.description}</p>
                     {activeIndex === index && (
+                       <Link to="/contact">
                       <Button variant="link" className="mt-2 md:mt-4 text-vertex-blue flex items-center">
                         Learn more <ArrowRight className="ml-1 h-4 w-4" />
                       </Button>
+                       </Link>
                     )}
                   </CardContent>
                 </Card>
@@ -144,9 +147,11 @@ const InfoSlider = () => {
 
         <div className="mt-8 md:mt-16 text-center">
           <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6">Ready to transform your HR operations?</h3>
+           <Link to="/contact">
           <Button className="bg-vertex-blue hover:bg-vertex-blue-light text-white py-3 md:py-6 px-4 md:px-8 text-base md:text-lg rounded-lg">
             Get Started Today
           </Button>
+           </Link>
         </div>
       </div>
     </section>

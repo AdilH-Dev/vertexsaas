@@ -20,7 +20,7 @@ const About = () => {
         <Header />
 
         {/* Hero Section */}
-        <div className="pt-28 pb-16 bg-gradient-to-b from-gray-50 to-white">
+        <div className="pt-24 bg-gradient-to-b from-gray-50 to-white">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
               About <span className="text-vertex-blue">Vertex HCM</span>
@@ -56,7 +56,7 @@ const About = () => {
         </div>
 
         {/* Mission & Vision */}
-        <div className="py-16 bg-white">
+        <div className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12">
               <div className="bg-gray-50 p-8 rounded-lg">
@@ -86,7 +86,7 @@ const About = () => {
         </div>
 
         {/* Team Section */}
-        {/* <div className="py-16 bg-gray-50">
+        {/* <div className="py-8 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Our Leadership Team</h2>
           
@@ -294,7 +294,7 @@ const About = () => {
           </div>
         </div>
 
-            <section className="py-12 md:py-20 bg-gray-50">
+            <section className="py-8 bg-gray-50">
               <div className="container mx-auto px-4">
                 <div className="text-center">
                   {/* <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Comprehensive HCM Solutions</h2> */}

@@ -24,13 +24,13 @@ const Benefits = () => {
 
         <main className="flex-grow pt-24">
           {/* Hero Section */}
-          <section className="py-16 bg-gradient-to-br from-green-50 to-green-100">
+          <section className="py-8 bg-gradient-to-br from-green-50 to-green-100">
             <div className="container mx-auto px-4">
               <div className="flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2 mb-8 lg:mb-0">
                   <h1 className="text-3xl md:text-4xl font-bold mb-4">
-                    Comprehensive Benefits Administration and HR & employee
-                    benefits services
+                    Comprehensive Benefits Administration and HR & Employee
+                    Benefits Services
                   </h1>
                   <p className="text-gray-600 mb-6 md:text-lg">
                     Attracting top talent is just the beginning; retaining it
@@ -48,15 +48,19 @@ const Benefits = () => {
                     valued.
                   </p>
                   <div className="flex flex-wrap gap-4">
+                    <Link to="/contact">
                     <Button className="bg-green-600 hover:bg-green-700 text-white">
                       Request Demo
                     </Button>
+                    </Link>
+                    <Link to="/contact">
                     <Button
                       variant="outline"
                       className="border-green-600 text-green-600 hover:bg-green-50"
                     >
                       Learn More
                     </Button>
+                    </Link>
                   </div>
                 </div>
                 <div className="lg:w-1/2 lg:pl-12">
@@ -80,7 +84,7 @@ const Benefits = () => {
           </section>
 
           {/* Features Section */}
-          <section className="py-16 bg-white">
+          <section className="py-8 bg-white">
             <div className="container mx-auto px-4">
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold mb-4">
@@ -182,7 +186,7 @@ const Benefits = () => {
           </section>
 
           {/* Benefits Portal Section */}
-          <section className="py-16 bg-gray-50">
+          <section className="py-8 bg-gray-50">
             <div className="container mx-auto px-4">
               <div className="flex flex-col lg:flex-row items-center">
                 {/* <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12">
@@ -235,14 +239,16 @@ const Benefits = () => {
                       </li>
                     ))}
                   </ul>
+                  <Link to="/contact">
                   <Button className="bg-green-600 hover:bg-green-700 text-white">
                     See Portal Demo
                   </Button>
+                  </Link>
                 </div>
               </div>
             </div>
           </section>
-          <section className="py-16 bg-white">
+          <section className="py-8 bg-white">
             <div className="container mx-auto px-4">
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold mb-4">
@@ -276,7 +282,7 @@ const Benefits = () => {
           </section>
 
           {/* Call to Action */}
-          <section className="py-16 bg-gradient-to-r from-green-600 to-green-700 text-white">
+          <section className="py-8 bg-gradient-to-r from-green-600 to-green-700 text-white">
             <div className="container mx-auto px-4 text-center">
               <h2 className="text-3xl font-bold mb-4">
                 Trusted and Proven by Real Organizations
@@ -297,9 +303,11 @@ const Benefits = () => {
                 happier employees, and smoother HR operations.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
+                <Link to="/contact">
                 <Button className="bg-white text-green-600 hover:bg-gray-100">
                   Schedule a Demo
                 </Button>
+                </Link>
                 {/* <Button variant="outline" className="bg-green-500 border-white text-white hover:bg-green-500">
                 Contact Sales
               </Button> */}

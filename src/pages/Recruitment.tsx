@@ -22,14 +22,14 @@ const Recruitment = () => {
         <Header />
 
         {/* Hero Section */}
-        <div className="pt-28 pb-16 bg-gradient-to-b from-blue-50 to-white">
+        <div className="pt-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
                 <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
                   Streamlined{" "}
                   <span className="text-violet-600">Recruitment</span> Process
-                  and HR recruitment management software Process
+                  and HR Recruitment Management Software Process
                 </h1>
                 <p className="text-lg text-gray-700 mb-8">
                   Recruiting the right people is more than just reviewing CVs or
@@ -46,15 +46,19 @@ const Recruitment = () => {
                   precision and ease; all from one intuitive platform.
                 </p>
                 <div className="flex flex-wrap gap-4">
+                <Link to="/contact">
                   <Button className="bg-gradient-to-r from-vertex-blue to-violet-600 hover:from-vertex-blue hover:to-violet-700 text-white">
                     Schedule Demo
                   </Button>
+                </Link>
+                <Link to="/contact">
                   <Button
                     variant="outline"
                     className="border-violet-600 text-violet-600 hover:bg-violet-600/10"
                   >
                     Learn More
                   </Button>
+                </Link>
                 </div>
               </div>
               <div className="md:w-1/2">
@@ -76,7 +80,7 @@ const Recruitment = () => {
         </div>
 
         {/* Process Tabs */}
-        <div className="py-16 bg-white">
+        <div className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-8">
               Step-by-Step Recruitment That Works
@@ -333,7 +337,7 @@ const Recruitment = () => {
         </div>
         
 
-        <section className="py-12 md:py-20 bg-gray-50">
+        <section className="py-8 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center">
               {/* <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Comprehensive HCM Solutions</h2> */}

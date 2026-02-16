@@ -12,7 +12,7 @@ const Hero = () => {
   }, []);
   
   return (
-    <section className="pt-24 pb-16 md:pt-36 md:pb-28 relative overflow-hidden">
+    <section className="pt-24 pb-4 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full gradient-bg"></div>
       <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-vertex-blue/5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/4"></div>
@@ -35,9 +35,11 @@ const Hero = () => {
               Modern businesses need more than just spreadsheets to manage their people. From recruitment to retirement, Vertex HCM helps organizations navigate the entire employee lifecycle with clarity, compliance, and ease. Our powerful Human resource management software is designed to streamline your workforce operations and elevate the employee experience, all within one integrated solution.
             </p>
             <div className={`flex flex-wrap justify-center md:justify-start gap-3 md:gap-4 transition-opacity delay-500 duration-1000 ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+               <Link to="/contact">
               <ButtonHover variant="primary" size="lg">
                 Get Started
               </ButtonHover>
+               </Link>
                <Link to="/contact">
               <ButtonHover variant="outline" size="lg">
                 Book a Demo

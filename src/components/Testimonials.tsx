@@ -84,12 +84,12 @@ const Testimonials = () => {
   };
 
   return (
-    <section id="testimonials" className="py-20 bg-white">
+    <section id="testimonials" className="py-8 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Trusted by Thousands</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Vertex HCM has transformed HR operations for over 3,500 organizations in 45+ countries. Our client retention rate of 97% speaks volumes about satisfaction and service excellence.
+            Vertex HCM has transformed HR operations for over 3,500 Organizations in 45+ countries. Our client retention rate of 97% speaks volumes about satisfaction and service excellence.
           </p>
         </div>
         
@@ -137,7 +137,7 @@ const Testimonials = () => {
           </div>
           
           {/* Controls */}
-          <div className="absolute top-1/2 -translate-y-1/2 left-0 right-0 flex justify-between items-center px-2">
+          <div className="absolute top-1/2 -translate-y-1/2 left-[-75px] right-[-75px] flex justify-between items-center px-2">
             <button 
               className="bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition-colors"
               onClick={prevSlide}

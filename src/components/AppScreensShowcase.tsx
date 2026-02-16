@@ -61,7 +61,7 @@ const AppScreensShowcase = () => {
   };
 
   return (
-    <section id="app-screens-showcase" className="py-20 overflow-hidden">
+    <section id="app-screens-showcase" className="py-8 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -145,7 +145,7 @@ const AppScreensShowcase = () => {
                 step={1}
                 value={[activeScreen]}
                 onValueChange={handleSliderChange}
-                className="py-4"
+                className="py-8"
               />
 
               <div className="flex justify-between text-sm text-gray-500 mt-2">

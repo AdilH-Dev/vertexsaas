@@ -22,7 +22,7 @@ const Performance = () => {
         <Header />
 
         {/* Hero Section */}
-        <div className="pt-28 pb-16 bg-gradient-to-b from-purple-50 to-white">
+        <div className="pt-24 bg-gradient-to-b from-purple-50 to-white">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row-reverse items-center">
               <div className="md:w-1/2 mb-8 md:mb-0 md:pl-8">
@@ -30,7 +30,7 @@ const Performance = () => {
                   Effective <span className="text-purple-600">Performance</span>{" "}
                   Management and{" "}
                   <span className="text-purple-600">Performance</span>{" "}
-                  management software
+                  Management Software
                 </h1>
                 <p className="text-lg text-gray-700 mb-8">
                   In any thriving organization, performance is not just
@@ -46,15 +46,19 @@ const Performance = () => {
                   transparency, and fosters a culture of continuous improvement.
                 </p>
                 <div className="flex flex-wrap gap-4">
+                  <Link to="/contact">
                   <Button className="bg-purple-600 hover:bg-purple-700 text-white">
                     Schedule Demo
                   </Button>
+                  </Link>
+                  <Link to="/contact">
                   <Button
                     variant="outline"
                     className="border-purple-600 text-purple-600 hover:bg-purple-600/10"
                   >
                     Learn More
                   </Button>
+                  </Link>
                 </div>
               </div>
               <div className="md:w-1/2">
@@ -75,7 +79,7 @@ const Performance = () => {
           </div>
         </div>
 
-        <section className=" bg-white">
+        <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-4">
               <h2 className="text-3xl font-bold mb-4">
@@ -225,7 +229,7 @@ const Performance = () => {
           </div>
         </div>
 
-        <section id="features" className="py-12 md:py-20 bg-gray-50">
+        <section id="features" className="py-8 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center">
               {/* <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Comprehensive HCM Solutions</h2> */}

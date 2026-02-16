@@ -21,13 +21,13 @@ const Payroll = () => {
         <Header />
 
         {/* Hero Section */}
-        <div className="pt-28 pb-16 bg-gradient-to-b from-gray-50 to-white">
+        <div className="pt-24 bg-gradient-to-b from-gray-50 to-white">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
                 <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-                  <span className="text-vertex-blue">Payroll</span> management
-                  software Without the Puzzles: Smart, Simple, Seamless
+                  <span className="text-vertex-blue">Payroll</span> Management
+                  Software Without the Puzzles: Smart, Simple, Seamless
                 </h1>
                 <p className="text-lg text-gray-700 mb-8">
                   Managing payroll is not just about calculating salaries; it’s
@@ -41,15 +41,19 @@ const Payroll = () => {
                   payday.
                 </p>
                 <div className="flex flex-wrap gap-4">
+                  <Link to="/contact">
                   <Button className="bg-vertex-blue hover:bg-vertex-blue-light text-white">
                     Schedule Demo
                   </Button>
+                  </Link>
+                  <Link to="/contact">
                   <Button
                     variant="outline"
                     className="border-vertex-blue text-vertex-blue hover:bg-vertex-blue/10"
                   >
                     Learn More
                   </Button>
+                  </Link>
                 </div>
               </div>
               <div className="md:w-1/2">
@@ -273,7 +277,7 @@ const Payroll = () => {
           </div>
         </div>
 
-        <section className="py-12 md:py-20 bg-gray-50">
+        <section className="py-8 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center">
               {/* <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Comprehensive HCM Solutions</h2> */}

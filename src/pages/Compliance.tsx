@@ -31,12 +31,12 @@ const Compliance = () => {
 
         <main className="flex-grow pt-24">
           {/* Hero Section */}
-          <section className="py-16 bg-gradient-to-br from-red-50 to-red-100">
+          <section className="py-8 bg-gradient-to-br from-red-50 to-red-100">
             <div className="container mx-auto px-4">
               <div className="flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2 mb-8 lg:mb-0">
                   <h1 className="text-3xl md:text-4xl font-bold mb-4">
-                    Compliance Management and HR compliance software
+                    Compliance Management and HR Compliance Software
                   </h1>
                   <p className="text-gray-600 mb-6 md:text-lg">
                     In the modern HR landscape, compliance is no longer a
@@ -55,15 +55,19 @@ const Compliance = () => {
                     reducing administrative overload.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <Button className="bg-red-600 hover:bg-red-700 text-white">
-                      Request Demo
-                    </Button>
-                    <Button
-                      variant="outline"
-                      className="border-red-600 text-red-600 hover:bg-red-50"
-                    >
-                      Learn More
-                    </Button>
+                    <Link to="/contact">
+                      <Button className="bg-red-600 hover:bg-red-700 text-white">
+                        Request Demo
+                      </Button>
+                    </Link>
+                    <Link to="/contact">
+                      <Button
+                        variant="outline"
+                        className="border-red-600 text-red-600 hover:bg-red-50"
+                      >
+                        Learn More
+                      </Button>
+                    </Link>
                   </div>
                 </div>
                 <div className="lg:w-1/2 lg:pl-12">
@@ -87,7 +91,7 @@ const Compliance = () => {
           </section>
 
           {/* Features Section */}
-          <section className="py-16 bg-white">
+          <section className="py-8 bg-white">
             <div className="container mx-auto px-4">
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold mb-4">
@@ -157,7 +161,7 @@ const Compliance = () => {
           </section>
 
           {/* Compliance Dashboard Section */}
-          <section className="py-16 bg-gray-50">
+          <section className="py-8 bg-gray-50">
             <div className="container mx-auto px-4">
               <div className="flex flex-col lg:flex-row items-center">
                 {/* <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12">
@@ -210,14 +214,16 @@ const Compliance = () => {
                     This centralized dashboard offers control and transparency,
                     which are the two pillars of effective compliance.
                   </p>
-                  <Button className="bg-red-600 hover:bg-red-700 text-white">
-                    See Dashboard Demo
-                  </Button>
+                  <Link to="/contact">
+                    <Button className="bg-red-600 hover:bg-red-700 text-white">
+                      See Dashboard Demo
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>
           </section>
-          <section className="py-12 md:py-20 bg-white">
+          <section className="py-8 bg-white">
             <div className="container mx-auto px-4">
               <div className="text-center">
                 {/* <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Comprehensive HCM Solutions</h2> */}
@@ -253,18 +259,33 @@ const Compliance = () => {
           </section>
 
           {/* Call to Action */}
-          <section className="py-16 bg-gradient-to-r from-red-600 to-red-700 text-white">
+          <section className="py-8 bg-gradient-to-r from-red-600 to-red-700 text-white">
             <div className="container mx-auto px-4 text-center">
               <h2 className="text-3xl font-bold mb-4">
                 A System That Adapts to Local Needs
               </h2>
               <p className="mb-8 max-w-2xl mx-auto">
-               We understand that each region in Pakistan may have its own labor nuances. Our tools are tailored to support localized regulations, helping you implement HR compliance services Pakistan with accuracy. Whether you're a Karachi-based tech company or a manufacturing unit in Lahore, our solution scales to your business model. Strong HR compliance solutions do not just support your HR team; it protects your reputation, finances, and people. With HR compliance services Pakistan at your fingertips and the proven reliability of <Link to="/" className="text-vertex-blue">vertex-HCM</Link> HR compliance software in Pakistan, you're always one step ahead.
+                We understand that each region in Pakistan may have its own
+                labor nuances. Our tools are tailored to support localized
+                regulations, helping you implement HR compliance services
+                Pakistan with accuracy. Whether you're a Karachi-based tech
+                company or a manufacturing unit in Lahore, our solution scales
+                to your business model. Strong HR compliance solutions do not
+                just support your HR team; it protects your reputation,
+                finances, and people. With HR compliance services Pakistan at
+                your fingertips and the proven reliability of{" "}
+                <Link to="/" className="text-vertex-blue">
+                  vertex-HCM
+                </Link>{" "}
+                HR compliance software in Pakistan, you're always one step
+                ahead.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <Button className="bg-white text-red-600 hover:bg-gray-100">
-                  Schedule a Demo
-                </Button>
+                <Link to="/contact">
+                  <Button className="bg-white text-red-600 hover:bg-gray-100">
+                    Schedule a Demo
+                  </Button>
+                </Link>
                 {/* <Button variant="outline" className="border-white text-white hover:bg-red-500">
                 Contact Sales
               </Button> */}

@@ -15,13 +15,16 @@ import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
 import Benefits from "./pages/Benefits";
 import Compliance from "./pages/Compliance";
+import { ReactHotToast } from "./components/ui/ReactHotToast";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
+    
     <TooltipProvider>
       <Toaster />
+      <ReactHotToast/>
       <Sonner />
       <BrowserRouter>
         <Routes>
